@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.transaction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid #d7dfe9;
+  height: 34px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.trans-title {
+  color: #7e858e;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.trans-amount {
+  color: #7e858e;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.trans-option {
+  color: #7e858e;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
